@@ -24,6 +24,5 @@ namespace TCMsearch
         {
             InitializeComponent();
         }
-
     }
 }
