@@ -1,0 +1,202 @@
+﻿<Window x:Name="XJTmainWindows" x:Class="XingjitangSuite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XingjitangSuite"
+        mc:Ignorable="d"
+        Title="兴灭继絶" Height="727.2" Width="1370.4" WindowState="Maximized" WindowStartupLocation="CenterScreen" SizeChanged="Window_SizeChanged" Icon="icon.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TabControl Margin="0,0,0,0.6" BorderBrush="White">
+            <TabItem Header="Coming" Width="100" Height="30" BorderBrush="White" Background="#FFC8FFC8" Margin="0,-1,0,1" VerticalAlignment="Bottom" FontSize="16">
+                <Grid Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox Margin="10" TextWrapping="Wrap" Text="授权说明：&#xD;&#xA;&#xD;&#xA;授权使用费是指软件可执行程序和硬件U盘等存储设备的授权使用费用。&#xD;&#xA;用户不得擅自修改，拷贝，移动，分发，传播软件出所授权存储如U盘等介质。&#xD;&#xA;如用户擅自修改，拷贝，移动出所授权存储如U盘等介质，所造成的任何影响由用户自己承担，与本作者和软件无任何关系，作者不承担任何责任。并且授权使用费不退。&#xD;&#xA;本软件系作者耗费大量时间精力调整编写，期间经过多次调研和简化，本着简洁、高效、易用的原则走访多为中医行业人士，经过反复调整优化编写完成。&#xD;&#xA;授权用户仅限于查询使用。未经授权不得擅自进行拷贝，传播，反编译等操作。付费版本如需续费请务必在到期前续费，过期则不可使用。&#xD;&#xA;此软件附带数据均是来自于互联网，软件授权使用费是对于作者算法和劳动的认可，不认同者尽可自行通过互联网查询所需信息，不可传播或使用盗版。&#xD;&#xA;由于数据量极大，作者已经花费数年时间整理校准。数据是附带免费的，作者不对数据的准确性负责，个别乱码是由于繁体生僻字系统字库不能识别造成，但是基本不影响使用和理解&#xD;&#xA;如需绑定计算机的用户，请直接联系作者制作定制版本。&#xD;&#xA;&#xD;&#xA;如果您不同意上述任何内容，请立即停止使用并且永久、完全删除本软件。&#xD;&#xA;=======================================================&#xD;&#xA;&#xD;&#xA;软件使用说明：&#xD;&#xA;&#xD;&#xA;本软件界面极度精简。上方分页切换功能区。&#xD;&#xA;资料检索页面用来查询资料库，支持多关键字空格分离。在设定好摘切字数后，会将结果列出，双击左侧列表中选中的书籍，右边会载入结果。左侧书籍前面带有数字的，数字表示本书中所含摘切条目数量。如需进一步阅读全书，可以左侧列表右键单击书籍名称。这样会载入全书，并且搜索栏的各个关键字会用背景颜色标识出来，方便速度。&#xD;&#xA;术语词典支持模糊查询，输入关键字单击回车即可，效率非常高。词典仅限于中医古籍常见术语，用户可以通过右下方自行定制新建词条。联网状态下，如果所搜词条不存在，可以自动连接到百度翻译查询。&#xD;&#xA;经络穴位和草药页面，如有图片的，鼠标移动到图片位置会自动放大。&#xD;&#xA;各页面搜索功能经过高度优化。如有常规需求可以联系作者。&#xD;&#xA;最后，希望本软件可以提高大家的学习工作效率。"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="资料检索" Width="100" Height="30" BorderBrush="White" Background="#FFC8C8FF" Margin="0,-1,0,1" VerticalAlignment="Bottom" FontSize="16">
+                <Grid Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ListBox x:Name="FileListBox" HorizontalAlignment="Left" Margin="10,35,0,10" Width="186" FontSize="16" MouseDoubleClick="ZiLiaoJianSuoFileListBox_MouseDoubleClick" ScrollViewer.HorizontalScrollBarVisibility="Auto" TabIndex="1" MouseRightButtonUp="FileListBox_MouseRightButtonUp"/>
+                    <TextBox x:Name="ZiLiaoJianSuoLibSearchBox" Height="30" Margin="335,1,139.2,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalContentAlignment="Center" FontSize="16"/>
+                    <Button x:Name="ZiLiaoJianSuoExtractionButton" Content="抓取" HorizontalAlignment="Right" Margin="0,1,75.2,0" VerticalAlignment="Top" Width="60" Height="30" FontSize="16" Click="ZiLiaoJianSuoExtractionButton_Click"/>
+                    <Label x:Name="ZiLiaoJianSuoResultLabel" Content="高计算量，请耐心等待。" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Width="186" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="10,0,0,0"/>
+                    <Button x:Name="ZiLiaoJianSuoBreakButton" Content="终止" Margin="0,1,10.2,0" VerticalAlignment="Top" Height="30" FontSize="16" Click="ZiLiaoJianSuoBreakButton_Click" HorizontalAlignment="Right" Width="60"/>
+                    <TextBox x:Name="RangeBox" HorizontalAlignment="Left" Height="30" Margin="201,1,0,0" TextWrapping="Wrap" Text="500" VerticalAlignment="Top" Width="53" VerticalContentAlignment="Center" FontSize="16" IsInactiveSelectionHighlightEnabled="True"/>
+                    <Label Content="字内包含：" HorizontalAlignment="Left" Margin="254,1,0,0" VerticalAlignment="Top" Height="29" Width="81" VerticalContentAlignment="Center" FontSize="16"/>
+                    <RichTextBox x:Name="ResultTextBox" Margin="201,36,9.2,148" VerticalScrollBarVisibility="Auto" FontSize="16" FontFamily="Microsoft YaHei" Background="#FFE1FFE1" HorizontalScrollBarVisibility="Disabled">
+                        <FlowDocument/>
+                    </RichTextBox>
+                    <RichTextBox x:Name="ZiLiaoJianSuoNoteBox" Margin="201,0,9.2,10" Height="134" VerticalAlignment="Bottom" Background="#FFFFFFE1" VerticalScrollBarVisibility="Auto" FontSize="14" HorizontalScrollBarVisibility="Disabled">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="本框暂存文字请及时保存！"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="术语词典" Width="100" Height="30" BorderBrush="White" Background="#FFFFC8C8" Margin="0,-1,0,1" VerticalAlignment="Bottom" FontSize="16">
+                <Grid Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <WebBrowser x:Name="BaiduFanyi" Margin="10,45,10,10"/>
+                    <TextBox x:Name="ShuYuCiDianSearchBox" Margin="10,10,648.4,0" TextWrapping="Wrap" FontSize="16" FontWeight="Bold" Height="30" VerticalAlignment="Top" FontFamily="Microsoft YaHei" Padding="5,0,0,0" KeyDown="ShuYuCiDianSearchBox_KeyDown" VerticalContentAlignment="Center" TabIndex="1"/>
+                    <RichTextBox x:Name="ResultList" Margin="10,45,647.6,10.4" Padding="0" FontSize="14" BorderThickness="1" Background="White" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" FontFamily="Microsoft YaHei">
+                        <FlowDocument/>
+                    </RichTextBox>
+                    <RichTextBox x:Name="JingLuoXueWeiNote_Copy" Margin="0,10,10.4,386.4" Background="#FFFFFFE1" VerticalScrollBarVisibility="Auto" FontSize="14" HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Right" Width="633">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="本框暂存文字请及时保存！"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <TextBox x:Name="ShuYuCiDianNewItem" Margin="0,0,10.6,316.4" TextWrapping="Wrap" Text="词条：中英文" VerticalContentAlignment="Center" Height="30" VerticalAlignment="Bottom" Background="#FFFFC8C8" HorizontalAlignment="Right" Width="632"/>
+                    <TextBox x:Name="ShuYuCiDianNewDescription" Margin="0,0,10.6,45.4" TextWrapping="Wrap" Text="词条描述" Height="266" VerticalAlignment="Bottom" Background="#FFFFC8C8" HorizontalAlignment="Right" Width="632"/>
+
+                    <Label Content="" Margin="795,0,111.2,10" Height="30" VerticalAlignment="Bottom"/>
+                    <Button x:Name="ShuYuCiDianCleanButton" Content="清空" Margin="0,0,10,10" HorizontalAlignment="Right" Width="75" Height="30" VerticalAlignment="Bottom" Click="ShuYuCiDianCleanButton_Click"/>
+                    <Label Content="添加词条：" Margin="0,0,10.6,351.4" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="632"/>
+                    <Button x:Name="ShuYuCiDianAddNewButton" Content="添加" Margin="0,0,567.4,10.4" HorizontalAlignment="Right" Width="75" Height="30" VerticalAlignment="Bottom" Click="ShuYuCiDianAddNewButton_Click"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="经络穴位" Width="100" Height="30" BorderBrush="White" Background="#FFFFFFC8" Margin="0,-1,0,1" VerticalAlignment="Bottom" FontSize="16">
+                <Grid Background="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ListBox x:Name="JingLuoXueWeiJingLuoList" Margin="10,36,0,10" Width="180" HorizontalAlignment="Left" MouseDoubleClick="JingLuoXueWeiJingLuoList_MouseDoubleClick" ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+                    <ListBox x:Name="JingLuoXueWeiXueWeiList" Margin="195,36,0,10" HorizontalAlignment="Left" Width="120" MouseDoubleClick="JingLuoXueWeiXueWeiList_MouseDoubleClick" ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
+                    <RichTextBox x:Name="JingLuoXueWeiXueWeiDetail" Margin="320,0,421.2,10" FontSize="14" VerticalScrollBarVisibility="Auto">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="并非所有穴位都有图片"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <TextBox x:Name="JingLuoXueWeiPointSearch" Height="30" Margin="10,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="230"/>
+                    <Button x:Name="JingLuoXueWeiXueWeiSearch" Content="搜索" Margin="245,0,0,0" VerticalAlignment="Top" Height="30" Click="JingLuoXueWeiXueWeiSearch_Click" HorizontalAlignment="Left" Width="70" TabIndex="2"/>
+                    <MediaElement x:Name="JingLuoXueWeiPic1" Margin="0,0,216.2,215" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" MediaEnded="JingLuoXueWeiPic1_MediaEnded" MouseEnter="JingLuoXueWeiPic1_MouseEnter" Height="200" VerticalAlignment="Bottom" Volume="0" HorizontalAlignment="Right" Width="200" MouseLeave="JingLuoXueWeiPic1_MouseLeave"/>
+                    <MediaElement x:Name="JingLuoXueWeiPic2" Margin="0,0,13.2,215" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Right" Width="200" Height="200" VerticalAlignment="Bottom" MediaEnded="JingLuoXueWeiPic2_MediaEnded" MouseEnter="JingLuoXueWeiPic2_MouseEnter" MouseLeave="JingLuoXueWeiPic2_MouseLeave"/>
+                    <MediaElement x:Name="JingLuoXueWeiPic3" Margin="0,0,216.2,10" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" MediaEnded="JingLuoXueWeiPic3_MediaEnded" HorizontalAlignment="Right" Width="200" Height="200" VerticalAlignment="Bottom" MouseEnter="JingLuoXueWeiPic3_MouseEnter" MouseLeave="JingLuoXueWeiPic3_MouseLeave"/>
+                    <MediaElement x:Name="JingLuoXueWeiPic4" Margin="0,0,10,10" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" MediaEnded="JingLuoXueWeiPic4_MediaEnded" HorizontalAlignment="Right" Width="200" Height="200" VerticalAlignment="Bottom" MouseEnter="JingLuoXueWeiPic4_MouseEnter" MouseLeave="JingLuoXueWeiPic4_MouseLeave"/>
+                    <MediaElement x:Name="JingLuoXueWeiPicBigShow" Margin="10,0,421.2,10" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" MediaEnded="JingLuoXueWeiPicBigShow_MediaEnded" MouseLeave="JingLuoXueWeiPicBigShow_MouseLeave" Height="200" VerticalAlignment="Bottom"/>
+                    <RichTextBox x:Name="JingLuoXueWeiNote" Margin="0,0,10,420" Background="#FFFFFFE1" VerticalScrollBarVisibility="Auto" FontSize="14" HorizontalAlignment="Right" Width="406" HorizontalScrollBarVisibility="Disabled">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="本框暂存文字请及时保存！"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="中草药" Width="100" Height="30" BorderBrush="White" Background="#FFC8FFFF" Margin="0,-1,0,1" VerticalAlignment="Bottom" FontSize="16">
+                <Grid Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ListBox x:Name="ZhongCaoYaoSearchCaoYaoList" Margin="10,36,0,10.4" Width="144" HorizontalAlignment="Left" ScrollViewer.HorizontalScrollBarVisibility="Auto" MouseDoubleClick="ZhongCaoYaoSearchCaoYaoList_MouseDoubleClick"/>
+                    <ListBox x:Name="ZhongCaoYaoCaoYaoList" Margin="159,36,0,10.4" HorizontalAlignment="Left" Width="156" ScrollViewer.HorizontalScrollBarVisibility="Disabled" MouseDoubleClick="ZhongCaoYaoCaoYaoList_MouseDoubleClick"/>
+                    <RichTextBox x:Name="ZhongCaoYaoCaoYaoDetail" Margin="320,0,420.4,9.4" FontSize="14" VerticalScrollBarVisibility="Auto">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="并非所有中草药都有图片"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <TextBox x:Name="ZhongCaoYaoSearchBox" Height="30" Margin="10,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="230"/>
+                    <Button x:Name="ZhongCaoYaoSearchButton" Content="搜索" Margin="245,0,0,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Left" Width="70" Click="ZhongCaoYaoSearchButton_Click" TabIndex="2"/>
+                    <MediaElement x:Name="ZhongCaoYaoPic1" Margin="0,0,216.4,215.4" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" MediaEnded="ZhongCaoYaoPic1_MediaEnded" MouseEnter="ZhongCaoYaoPic1_MouseEnter" Height="200" VerticalAlignment="Bottom" Volume="0" HorizontalAlignment="Right" Width="200" MouseLeave="ZhongCaoYaoPic1_MouseLeave"/>
+                    <MediaElement x:Name="ZhongCaoYaoPic2" Margin="0,0,13.4,215.4" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Right" Width="200" Height="200" VerticalAlignment="Bottom" MediaEnded="ZhongCaoYaoPic2_MediaEnded" MouseEnter="ZhongCaoYaoPic2_MouseEnter" MouseLeave="ZhongCaoYaoPic2_MouseLeave"/>
+                    <MediaElement x:Name="ZhongCaoYaoPic3" Margin="0,0,216.4,10.4" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" MediaEnded="ZhongCaoYaoPic3_MediaEnded" HorizontalAlignment="Right" Width="200" Height="200" VerticalAlignment="Bottom" MouseEnter="ZhongCaoYaoPic3_MouseEnter" MouseLeave="ZhongCaoYaoPic3_MouseLeave"/>
+                    <MediaElement x:Name="ZhongCaoYaoPic4" Margin="0,0,10.4,10.4" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" MediaEnded="ZhongCaoYaoPic4_MediaEnded" HorizontalAlignment="Right" Width="200" Height="200" VerticalAlignment="Bottom" MouseEnter="ZhongCaoYaoPic4_MouseEnter" MouseLeave="ZhongCaoYaoPic4_MouseLeave"/>
+                    <MediaElement x:Name="ZhongCaoYaoPicBigShow" Margin="10,0,421.4,10.4" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" UnloadedBehavior="Manual" ScrollViewer.VerticalScrollBarVisibility="Auto" MediaEnded="ZhongCaoYaoPicBigShow_MediaEnded" MouseLeave="ZhongCaoYaoPicBigShow_MouseLeave" Height="200" VerticalAlignment="Bottom"/>
+                    <RichTextBox x:Name="ZhongCaoYaoNote" Margin="0,0,10.4,419.4" Background="#FFFFFFE1" VerticalScrollBarVisibility="Auto" FontSize="14" HorizontalAlignment="Right" Width="406" HorizontalScrollBarVisibility="Disabled">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="带#号的为有图片的。"/>
+                            </Paragraph>
+                            <Paragraph>
+                                <Run/>
+                                <Run Text="本框暂存文字请及时保存！"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="方剂教材" Width="100" Height="30" BorderBrush="White" Background="#FFFFC8FF" Margin="0,-1,0,1" VerticalAlignment="Bottom" FontSize="16">
+                <Grid Background="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ListBox x:Name="FangJiPrescriptionTypeList" Margin="10,36,0,10.4" Width="120" HorizontalAlignment="Left" ScrollViewer.HorizontalScrollBarVisibility="Auto" MouseDoubleClick="FangJiPrescriptionTypeList_MouseDoubleClick" SelectionChanged="FangJiPrescriptionTypeList_SelectionChanged"/>
+                    <ListBox x:Name="FangJiPrescriptionClassList" Margin="134,36,0,10.4" HorizontalAlignment="Left" Width="120" ScrollViewer.HorizontalScrollBarVisibility="Auto" MouseDoubleClick="FangJiPrescriptionClassList_MouseDoubleClick"/>
+                    <RichTextBox x:Name="FangJiPrescriptionDetail" Margin="464,0,9.6,255.4" FontSize="14" VerticalScrollBarVisibility="Auto"/>
+                    <TextBox x:Name="FangJiPrescriptionSearchTextBox" Height="30" Margin="10,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="375"/>
+                    <Button x:Name="FangJiPrescriptionSearchButton" Content="搜索" Margin="390,1,0,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Left" Width="70" Click="FangJiPrescriptionSearchButton_Click" TabIndex="1"/>
+                    <RichTextBox x:Name="FangJiPrescriptionNote" Margin="464,0,9.6,10.4" Background="#FFFFFFE1" VerticalScrollBarVisibility="Auto" FontSize="14" HorizontalScrollBarVisibility="Disabled" Height="240" VerticalAlignment="Bottom">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="本框暂存文字请及时保存！"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <ListBox x:Name="FangJiPrescriptionNameList" Margin="260,36,0,10.4" HorizontalAlignment="Left" Width="200" ScrollViewer.HorizontalScrollBarVisibility="Auto" MouseDoubleClick="FangJiPrescriptionNameList_MouseDoubleClick"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="中药茶" Width="100" BorderBrush="White" Background="#FFC8FFC8" Margin="0,-1,0,1.4" FontSize="16">
+                <Grid Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ListBox x:Name="ZhongYaoChaTypeList" Margin="10,36,0,10.4" HorizontalAlignment="Left" Width="200" ScrollViewer.HorizontalScrollBarVisibility="Auto" MouseDoubleClick="ZhongYaoChaTypeList_MouseDoubleClick"/>
+                    <RichTextBox x:Name="ZhongYaoChaDetail" Margin="420,0,9.4,255.4" FontSize="14" VerticalScrollBarVisibility="Auto"/>
+                    <TextBox x:Name="ZhongYaoChaSearchTextBox" Height="30" Margin="10,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="330"/>
+                    <Button x:Name="ZhongYaoChaSearchButton" Content="搜索" Margin="345,1,0,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Left" Width="70" TabIndex="1" Click="ZhongYaoChaSearchButton_Click"/>
+                    <RichTextBox x:Name="ZhongYaoChaNote" Margin="420,0,9.4,10.4" Background="#FFFFFFE1" VerticalScrollBarVisibility="Auto" FontSize="14" HorizontalScrollBarVisibility="Disabled" Height="240" VerticalAlignment="Bottom">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="本框暂存文字请及时保存！"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <ListBox x:Name="ZhongYaoChaNameList" Margin="215,36,0,10.4" HorizontalAlignment="Left" Width="200" ScrollViewer.HorizontalScrollBarVisibility="Auto" MouseDoubleClick="ZhongYaoChaNameList_MouseDoubleClick"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="None" Width="100" Height="30" BorderBrush="White" Background="#FFC8C8FF" Margin="0,-1,0,1" VerticalAlignment="Bottom" FontSize="16" IsEnabled="False">
+                <Grid Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+            <TabItem Header="None" Width="100" Height="30" BorderBrush="White" Background="#FFFFC8C8" Margin="0,-1,0,1" VerticalAlignment="Bottom" FontSize="16" IsEnabled="False">
+                <Grid Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="newsteamcreator" Content="Button" Margin="0,10,9.6,0" VerticalAlignment="Top" Height="52" Click="Newstreamcreator_Click" HorizontalAlignment="Right" Width="75"/>
+                    <TextBox x:Name="showboardA" Margin="10,10,89.6,0" TextWrapping="Wrap" Height="109" VerticalAlignment="Top" AcceptsReturn="True"/>
+                    <TextBox x:Name="showboardB" Margin="10,124,10,10" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" AcceptsReturn="True"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,119 @@
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\XingjitangSuite.csprojAssemblyReference.cache
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\MainWindow.g.cs
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\App.g.cs
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.cache
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.lref
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\bin\Debug\XingjitangSuite.exe.config
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\bin\Debug\XingjitangSuite.exe
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\bin\Debug\XingjitangSuite.pdb
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\MainWindow.baml
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\XingjitangSuite.g.resources
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\XingjitangSuite.Properties.Resources.resources
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.GenerateResource.cache
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.CoreCompileInputs.cache
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\XingjitangSuite.exe
+D:\MyAllData\CSharp\XingjitangSuite\XingjitangSuite\obj\Debug\XingjitangSuite.pdb
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe.config
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\bin\Debug\XingjitangSuite.pdb
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.csprojAssemblyReference.cache
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\MainWindow.g.cs
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\App.g.cs
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.cache
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.lref
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\MainWindow.baml
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.g.resources
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.Properties.Resources.resources
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.GenerateResource.cache
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.CoreCompileInputs.cache
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.exe
+D:\MyAllData\CSharp\TCM-Toolkit\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.pdb
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe.config
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\bin\Debug\XingjitangSuite.pdb
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.csprojAssemblyReference.cache
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\MainWindow.g.cs
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\App.g.cs
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.cache
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.lref
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\MainWindow.baml
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.g.resources
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.Properties.Resources.resources
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.GenerateResource.cache
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.CoreCompileInputs.cache
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.exe
+D:\MyAllData\XingjitangSuite v2.0\XingjitangSuite\obj\Debug\XingjitangSuite.pdb
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe.config
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\bin\Debug\XingjitangSuite.pdb
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\MainWindow.g.cs
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\App.g.cs
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.cache
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.lref
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\MainWindow.baml
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.g.resources
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.Properties.Resources.resources
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.GenerateResource.cache
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.CoreCompileInputs.cache
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.exe
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.pdb
+D:\MyAllData\XingjitangSuite v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csprojAssemblyReference.cache
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe.config
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangSuite.pdb
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csprojAssemblyReference.cache
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\MainWindow.g.cs
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\App.g.cs
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.cache
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.lref
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\MainWindow.baml
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.g.resources
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.Properties.Resources.resources
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.GenerateResource.cache
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.CoreCompileInputs.cache
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.exe
+D:\MyAllData\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.pdb
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe.config
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangSuite.exe
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangSuite.pdb
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\MainWindow.g.cs
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\App.g.cs
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.cache
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite_MarkupCompile.lref
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\MainWindow.baml
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.g.resources
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.Properties.Resources.resources
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.GenerateResource.cache
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.CoreCompileInputs.cache
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.exe
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.pdb
+D:\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csprojAssemblyReference.cache
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangStudyTookit.exe.config
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangStudyTookit.exe
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangStudyTookit.pdb
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\MainWindow.g.cs
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\App.g.cs
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit_MarkupCompile.cache
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit_MarkupCompile.lref
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\MainWindow.baml
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit.g.resources
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.Properties.Resources.resources
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.GenerateResource.cache
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.CoreCompileInputs.cache
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit.exe
+C:\Users\zhenh\Desktop\MyAllData\Development\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit.pdb
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangStudyTookit.exe.config
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangStudyTookit.exe
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\bin\Debug\XingjitangStudyTookit.pdb
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csprojAssemblyReference.cache
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\MainWindow.g.cs
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\App.g.cs
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit_MarkupCompile.cache
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit_MarkupCompile.lref
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\MainWindow.baml
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit.g.resources
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.Properties.Resources.resources
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.GenerateResource.cache
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangSuite.csproj.CoreCompileInputs.cache
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit.exe
+G:\Development\CSharp\TCM-Toolkit\XingjitangSuiteFullyEncripted v3.0\XingjitangSuite\obj\Debug\XingjitangStudyTookit.pdb
